@@ -1,0 +1,11 @@
+Set-Location C:\
+
+## Make error messagse readable
+$host.privatedata.ErrorForegroundcolor = "White"
+$host.privatedata.ErrorBackgroundcolor = "DarkRed"
+
+## Sample alias configuration
+New-Item alias:np -value C:\Windows\System32\notepad.exe
+
+## Clear screen
+Clear-Host
