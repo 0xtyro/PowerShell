@@ -1,3 +1,4 @@
+## Set starting directory to root of C:\
 Set-Location C:\
 
 ## Make error messagse readable
